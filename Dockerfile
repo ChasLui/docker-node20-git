@@ -8,3 +8,4 @@ RUN apt-get update && \
 
 # 安装 yarn1 和其他全局包
 RUN npm install -g node-gyp @electron/node-gyp
+RUN npm i -g yarn --force
