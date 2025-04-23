@@ -7,4 +7,4 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # 安装 yarn1 和其他全局包
-RUN npm install -g node-gyp @electron/node-gyp && \
+RUN npm install -g node-gyp @electron/node-gyp
