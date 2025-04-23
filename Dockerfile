@@ -7,6 +7,4 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # 安装 yarn1 和其他全局包
-RUN npm install -g corepack yarn node-gyp @electron/node-gyp && \
-    corepack enable && \
-    corepack prepare yarn --activate
+RUN npm install -g yarn node-gyp @electron/node-gyp
